@@ -8,7 +8,7 @@
     order_id VARCHAR(45),first_name VARCHAR(255), last_name VARCHAR(255),
     product_name VARCHAR(255), product_description TEXT,
     product_returnable VARCHAR(50), seller VARCHAR(255),
-    total INT, date DATE, order_status VARCHAR(50), address TEXT
+    total INT, date DATE, order_status VARCHAR(50), city TEXT, pincode VARCHAR(25)
     );
 
 ### Adding Table Entries
